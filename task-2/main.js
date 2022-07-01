@@ -1,4 +1,8 @@
-// Use this array for solution
 let array = [3, 5, -7, 7, 5, -9, -4]
-
-// Write code here. 
+let count = 0;
+for( i = 1; i<array.length; i++){
+  if(array[i]!=array[i-1]){
+    count++;
+  }
+}
+console.log(count)
